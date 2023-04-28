@@ -13,6 +13,7 @@ CREATE TABLE reviews (
   id INT NOT NULL,
   customer_id INT,
   review TEXT NOT NULL,
+  movie_id INT,
   PRIMARY KEY (id),
   FOREIGN KEY (movie_id)
   REFERENCES movies(id)

@@ -1,12 +1,12 @@
-INSERT INTO movies (name)
-VALUES ("Avengers", 1),
-       ("Hunger Games", 2),
-       ("Inception", 3),
-       ("Intersteller", 4),
-       ("Django", 5),
-       ("Transformers", 6);
+INSERT INTO movies (id, name)
+VALUES (1, "Avengers"),
+       (2, "Hunger Games"),
+       (3, "Inception"),
+       (4, "Intersteller"),
+       (5, "Django"),
+       (6, "Transformers");
 
-INSERT INTO reviews (name)
+INSERT INTO reviews (id, name)
 VALUES ("great movie!", 1),
        ("Cried a lot!", 4),
        ("I'm extremely confused", 3),
