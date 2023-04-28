@@ -5,16 +5,16 @@ USE movie_db;
 
 CREATE TABLE movies (
   id INT NOT NULL,
-  movie_title VARCHAR(30),
+  movie_name VARCHAR(100),
   PRIMARY KEY (id)
 );
 
 CREATE TABLE reviews (
   id INT NOT NULL,
   customer_id INT,
-  order_details TEXT NOT NULL,
+  review TEXT NOT NULL,
   PRIMARY KEY (id),
-  FOREIGN KEY (customer_id)
-  REFERENCES customers(id)
+  FOREIGN KEY (movie_id)
+  REFERENCES movies(id)
   ON DELETE SET NULL
 );
