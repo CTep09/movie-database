@@ -2,8 +2,8 @@ INSERT INTO movies (name)
 VALUES ("Avengers", 1),
        ("Hunger Games", 2),
        ("Inception", 3),
-       ("Intersteller", 4);
-       ("Django", 5);
+       ("Intersteller", 4),
+       ("Django", 5),
        ("Transformers", 6);
 
 INSERT INTO reviews (name)
